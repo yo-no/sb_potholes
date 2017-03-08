@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "wrapper for chicago potholes api"
   spec.description   = "more info on potholes than you'll ever need"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/yo-no/sb_potholes"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

@@ -1,6 +1,6 @@
 # SbPotholes
 
-This is a wrapper for and api regarding Pothole in the Windy City
+This is a wrapper for and api regarding potholes in the Windy City
 
 ## Installation
 
@@ -20,7 +20,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+all the potholes
+
+```ruby
+require 'sb_potholes'
+
+all_potholes = SbPotholes::Pothole.all
+```
+
+just some specificish potholes
+
+```ruby
+potholes = SbPotholes::Pothole.search(search_term)
+```
 
 ## Development
 
